@@ -36,7 +36,7 @@ A solução utiliza uma abordagem orientada a eventos, integrando serviços gere
 
 ## 🚀 Como Executar
 ### 1. Treinamento do Modelo (SageMaker)
-Acesse a pasta notebooks/. O arquivo model_training.ipynb contém os passos para:
+Acesse a pasta sagemaker/. O arquivo ic-taxi-fare-prediction.ipynb contém os passos para:
 
 Carregar o dataset.
 
