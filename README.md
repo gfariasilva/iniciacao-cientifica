@@ -47,7 +47,7 @@ Fazer o deploy do modelo em um Endpoint do SageMaker.
 Nota: Copie o nome do Endpoint gerado, ele será usado na Lambda.
 
 ### 2. Configuração da Lambda
-O código fonte está em lambda/transformation.py. Esta função deve ser configurada como Transformer no Amazon Data Firehose.
+O código fonte está em lambda/firehose-sagemaker-data-processing.py. Esta função deve ser configurada como Transformer no Amazon Data Firehose.
 
 ### 3. Provisionamento da Infraestrutura (Console AWS)
 Kinesis Data Stream: Crie uma stream provisionada ou on-demand.
